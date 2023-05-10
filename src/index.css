@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    scroll-behavior: smooth;
+  }
+
+  .MuiButton-root:disabled {
+    opacity: 30%;
+    background-color: gray;
+  }
+
+  .MuiButton-root:hover {
+    transform: scale(1.1);
+    transition: 0.3s cubic-bezier(.47,1.64,.41,.8);
+    /* transform: scale(1.1), */
+  }
+
+  .MuiIconButton-root:hover {
+    transform: scale(1.1);
+    transition: 0.3s cubic-bezier(.47,1.64,.41,.8);
+    /* transform: scale(1.1), */
+  }
+
+
+
+  
+  
